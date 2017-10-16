@@ -6,5 +6,5 @@ pwn kr
     - main中定义了两个类，然后输入3先free掉
     - 在输入2中输入payload, 因为use after free
     - 所以再输入payload后，在输入1，即可运行我们的payload
-    - 其中注意下delete的函数是按栈的顺序进行的， 所以payload要注意这一点
+    - 其中注意下introduce函数是按栈的顺序进行的， 所以payload要注意这一点
   
