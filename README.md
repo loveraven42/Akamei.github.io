@@ -1,4 +1,4 @@
-# Sorry, It just cost your time to stay here！！！！！
+# Sorry, It just costs your time to stay here！！！！！
 # Maybe you could redirect to [this place](http://github.com/ring04h/) to get something you real need :)
 # pwn 中
 - [关于windows chunk的知识](http://www.cnblogs.com/aliflycoris/p/5914663.html)
