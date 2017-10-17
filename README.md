@@ -7,4 +7,4 @@
 - app动态调试的基本操作[在这](https://bbs.pediy.com/thread-217612.htm)
 
 # web中
- - (可能得到内网ip的点)【https://www.secpulse.com/archives/58730.html】
+ - [可能得到内网ip的点](https://www.secpulse.com/archives/58730.html)
