@@ -1,4 +1,4 @@
-pwn kr
+# pwn kr
   - bof(buffer overflow)
     - gdb 调试显示 距离 52 + address
     - payload = 52 * 'A' + address
