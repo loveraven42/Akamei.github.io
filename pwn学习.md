@@ -38,3 +38,21 @@ payload += p32(stack_addr + 0x10)
 p.send(payload)
 p.interactive()
 ```
+
+
+
+# pwn测试步骤
+  - [infer](http://fbinfer.com/docs/getting-started.html) 进行静态文件分析
+  - afl或者自写的fuzz工具进行fuzz
+  - 浏览器fuzz的工具有点无语
+  - 学习一下google的fuzz工具以及相关东西
+  - 手工的话就是去需要看代码,但是感觉看了也问题不大(主要是对c++等trick不熟，还是对web熟悉一点)
+  - 趁着自动化fuzz的时间进行下一步android相关的学习，然后就是深度学习了
+  
+# 深度学习
+  - 等书到了就看书，但感觉用处不大
+  - 还有深度学习的原理不太想碰(有时间要去补补)
+  - kaggle的手写字符集进行一次训练
+  
+# fuzz需要CPU和内存， 深度学习需要CPU，内存，显卡，硬盘
+# 该去配台好机器，但感觉买了要去打游戏。。
