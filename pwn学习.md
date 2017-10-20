@@ -42,11 +42,11 @@ p.interactive()
 
 
 # pwn测试步骤
-  - [infer](http://fbinfer.com/docs/getting-started.html) 进行静态文件分析
+  - [infer](http://fbinfer.com/docs/getting-started.html) 进行白盒审计
   - afl或者自写的fuzz工具进行fuzz
   - 浏览器fuzz的工具有点无语
   - 学习一下google的fuzz工具以及相关东西
-  - 手工的话就是去需要看代码,但是感觉看了也问题不大(主要是对c++等trick不熟，还是对web熟悉一点)
+  - 手工的话就是去需要看代码,但是感觉看了也问题不大(主要是对c++等trick不熟，还是对web熟悉一点，而且好多东西要做。。)
   - 趁着自动化fuzz的时间进行下一步android相关的学习，然后就是深度学习了
   
 # 深度学习
