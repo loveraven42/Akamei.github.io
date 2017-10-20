@@ -18,6 +18,7 @@
 - 最后自己调试相关crash
 
 # 编写步骤(对应功能分析相关函数,例子参考[这个](https://github.com/lcatro/Fuzzing-ImageMagick/blob/master/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Fuzzing%E6%8C%96%E6%8E%98ImageMagick%E7%9A%84%E6%BC%8F%E6%B4%9E.md))
+# 看了上面大佬的例子和源码，感觉学习到了很多
   - 了解相关文件格式
   - 创建随机数据，然后对应相关的输入(但这一步不要被自己的固有思维给堵死了)
   - python 执行ASAN编译好的程序并且 记录相关crash
