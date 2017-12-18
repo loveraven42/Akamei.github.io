@@ -14,7 +14,7 @@ f.write("<html><meta charset=\"utf-8\" />")
 for line in lines:
     try:
         line = line.strip("\n")
-        r = requests.get(line)
+        r = requests.get(line, timeout=30)
         code = r.status_code
         title = re.findall(pattern, r.content)
         if len(title):
