@@ -11,3 +11,28 @@
 // });
 // </script>
 alert(1);
+if(window.XMLHttpRequest){
+      var xhr=new XMLHttpRequest();
+}else if(window.ActiveXObject){
+      try{
+         var xhr=new ActiveXObject("Msxml2.XMLHTTP");
+      }catch(e){
+         try{
+            var xhr= new ActiveXObject("Microsoft.XMLHTTP");
+         }catch(e){
+            console.log(e);
+         }
+      }
+}else{
+      console.log(e);
+}
+xhr.open('post', 'http://shop.sc.weibo.com/aj/h5/ship/add' );
+xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+//发送请求
+xhr.send('content=123%20%20&styleid=1&from=share&sourceUrl=&appkey=8003029170&source=&refer=&url_type=&object_type=&visible=0&pic_ids=&gid=');
+xhr.onreadystatechange = function () {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    alert("ok");
+    console.log(xhr.responseText);
+  }
+};
