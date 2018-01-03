@@ -40,3 +40,6 @@
 # 内网渗透
 - [安全客的链接](https://www.anquanke.com/post/id/92646)
 - [知乎](https://zhuanlan.zhihu.com/p/26171460)
+
+# 甲方安全
+ - [甲方安全](http://www.freebuf.com/articles/neopoints/158586.html)
