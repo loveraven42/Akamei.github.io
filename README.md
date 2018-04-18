@@ -35,6 +35,10 @@
  - infer进行源代码的审计，但是需要参考infer的user guide
  - 后续希望参考infer的代码
 
+# Android检测的点
+看来Android app的漏洞 和 我以前了解的差不多
+https://github.com/guanchao/AndroidChecklist
+
 - 这些弄好之后，还是好好学医吧
 
 # 内网渗透
